@@ -10,7 +10,6 @@
 	</parent>
 	<groupId>com.waiyanhtet</groupId>
 	<artifactId>security</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<name>security</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -35,6 +34,11 @@
 			<artifactId>jjwt-jackson</artifactId>
 			<version>0.11.5</version>
 			<scope>runtime</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-oauth2-client -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-oauth2-client</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>io.springfox</groupId>
@@ -63,6 +67,7 @@
 			<artifactId>jjwt-impl</artifactId>
 			<version>0.11.5</version>
 		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
